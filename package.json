@@ -1,0 +1,21 @@
+{
+  "name": "Build docker image with Travis CI for IBM cloud",
+  "version": "1.0.0",
+  "description": "Build docker image with custom tags and push to Kubernetes container registry on IBM Cloud via Travis CI",
+  "main": "main.js",
+  "engines": {
+    "node": "10.15.3",
+    "npm": "6.4.1"
+  },
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "os": "^0.1.1"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "debug": "node --inspect-brk main.js",
+    "inspector": "node-inspector"
+  },
+  "author": "Pawan Pinjarkar",
+  "readmeFilename": "README.md"
+}
