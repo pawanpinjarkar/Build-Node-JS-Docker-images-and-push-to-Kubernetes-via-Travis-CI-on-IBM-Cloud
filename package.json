@@ -1,5 +1,5 @@
 {
-  "name": "Build docker image with Travis CI for IBM cloud",
+  "name": "Build-docker-image-with-Travis-CI-for-IBM-cloud",
   "version": "1.0.0",
   "description": "Build docker image with custom tags and push to Kubernetes container registry on IBM Cloud via Travis CI",
   "main": "main.js",
