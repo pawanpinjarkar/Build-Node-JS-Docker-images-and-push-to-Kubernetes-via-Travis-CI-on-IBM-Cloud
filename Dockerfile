@@ -1,5 +1,5 @@
 FROM node:10
-LABEL MAINTAINER="Pawan Pinjarkar <pinjar77@us.ibm.com>"
+LABEL MAINTAINER="Pawan Pinjarkar"
 # Bundle app source / Copy the source code
 COPY . .
 RUN npm install
